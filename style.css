@@ -1,11 +1,41 @@
+*{
+    scroll-behavior: smooth;
+}
 .cdn{
             width: 100%;
             display:flex;
             padding-left: 50px;
             height: auto;
 }
+.cdns{
+     width: 100%;
+    display:flex;
+    justify-content: center;
+    height: auto;
+}
 .cdno{
     width: 100%;
+}
+.my{
+    transform: skew(10deg, 10deg) scale(1);
+    transition: font-size 3s ease-in 2s, background-color 2s linear ;
+}
+.sswss{
+    animation: sas  linear 5s infinite alternate;
+}
+.my:hover{
+    font-size: 100px;
+    background-color: black;
+}
+@keyframes sas{
+    0%{
+        color: red;
+        transform: rotate(0deg);
+    }
+    100%{
+        color: whitesmoke;
+        transform: rotate(360deg);
+    }
 }
         .ss{
             opacity: 100%;
@@ -59,28 +89,28 @@
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(assets/tokilla2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 700px;
+    height: auto;
+    width:auto;
 }
 .ffl{
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(assets/wednesday2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 700px;
+    height: auto;
+    width: auto;
 }
 .f{
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(assets/devil2.png);
-    height: 600px;
-    width: 700px;
+    height: auto;
+    width: auto;
 }
 .l{
     background-color: black;
-    height: 600px;
-    width: 700px;
+    height: auto;
+    width: auto;
 }
 .g{
-    margin-top: 200px;
+    margin-top: 160px;
 }
 .s{
     display: flex;
